@@ -1,0 +1,167 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.card{
+  max-width: 60%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.one{
+  padding: 30px;
+  margin-bottom: 20px;
+  height: 50%;
+  background-color: #fff;
+}
+
+.two{
+  padding: 30px;
+  height: 30%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 50%;
+  background-color: #fff;
+
+}
+
+.info{
+  width: 100%;
+  text-align: center;
+  height: 30%;
+}
+
+img{
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.262);
+}
+
+h1{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  color: #7678ed;
+  letter-spacing: 2px;
+  margin: 10px 0;
+  background-color: #fff;
+
+}
+
+h2{
+  font-weight: lighter;
+  color: #555;
+  margin: 10px 0;
+  background-color: #fff;
+
+}
+
+.info{
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+
+}
+
+.info p{
+  background-color: #fff;
+  width: 65%;
+  margin-bottom: 10px;
+}
+
+.info a{
+  margin-top: 20px;
+}
+
+.button{
+  border-radius: 5px;
+  padding: 15px 25px;
+  width: 150px;
+  color: #fff;
+  background-color: #adafff;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.button:hover{
+  background-color: #7678ed;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+a{
+  color: #555;
+  text-decoration: none;
+}
+
+ul li{
+  list-style: none;
+}
+
+li a{
+  font-size: 30px;
+  transition: color 0.5s;
+}
+
+li a:hover{
+  color: #7678ed;
+}
+
+.social{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+
+}
+
+.social > a{
+  font-weight: bolder;
+  background-color: none;
+}
+
+.social .icon ul{
+  background-color: #fff;
+
+}
+
+.social .icon ul li{
+  display: inline;
+  background-color: #fff;
+}
+
+.icon{
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.icon i{
+  letter-spacing: 10px;
+  font-size: 40px;
+  width: auto;
+  margin-top: 30px;
+  margin-left: 8px;
+  background-color: #fff;
+}

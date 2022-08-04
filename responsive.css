@@ -1,0 +1,40 @@
+@media (max-width: 1400px){
+  .card{
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 1200px){
+  .card{
+    max-width: 80%;
+  }
+  body{
+    padding: 40px;
+  }
+}
+
+@media (max-width: 992px){
+  .card{
+    max-width: 85%;
+  }
+  body{
+    padding: 30px;
+  }
+}
+@media (max-width: 768px){
+  .card{
+    max-width: 90%;
+  }
+  body{
+    padding: 40px 10px;
+  }
+}
+
+@media (max-width: 576px){
+  .card{
+    max-width: 100%;
+  }
+  body{
+    padding: 40px 0px;
+  }
+}
